@@ -47,4 +47,5 @@ var itmDesc = "car";
 var slsTax = aftDisc / 8;
 // calculate price of item with tax
 var witTax = aftDisc + slsTax;
+//print out with and without tax
 console.log("Your " + itmDesc + " was originally $" + origAmt + ", but after a " + discAmt + "% discount, it is now $" + aftDisc + " without tax, and $" + witTax + " with tax.");
