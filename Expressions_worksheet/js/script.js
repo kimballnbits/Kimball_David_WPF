@@ -3,7 +3,7 @@
 
 //dog years
 var dogAge = 3;
-    const humYears = 7;
+const humYears = 7;
 //multiply dogAge and humYears
 var humAge = dogAge * humYears;
 //print out the human age for Sparky
@@ -37,4 +37,14 @@ var avgWeek = total / 5;
 //print out avg week
 console.log("You have spent a total of $" + total + " on groceries over 5 weeks. That is an average of $" + avgWeek + " per week");
 
-//
+//discounts
+var origAmt = 18000;
+const disc = origAmt / 20;
+// calculate amount of discount item, minus discount from original amount calculate discounted price without tax
+var aftDisc = origAmt - disc;
+var discAmt = 20;
+var itmDesc = "car";
+var slsTax = aftDisc / 8;
+// calculate price of item with tax
+var witTax = aftDisc + slsTax;
+console.log("Your " + itmDesc + " was originally $" + origAmt + ", but after a " + discAmt + "% discount, it is now $" + aftDisc + " without tax, and $" + witTax + " with tax.");
