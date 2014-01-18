@@ -1,6 +1,6 @@
 //David Kimball 1-18-14 Expressions Personal
 
-//amount I spend on the cats
+//amount of money spent on each cat per week
 //enter amount spent on each item per cat
 var wetFood = 3.25;
 //create variable for cost of item
@@ -23,5 +23,6 @@ var noWks = prompt("Please enter the amount of weeks");
 var calcWks = (totalAmt * noCats) * noWks;
 //create alert that shows final calculation
 alert("I spend $" + totalAmt + " each week per cat. That is equal to $" + calcWks + " for "+ noWks + " weeks for " + noCats + " cats.");
+
 
 
