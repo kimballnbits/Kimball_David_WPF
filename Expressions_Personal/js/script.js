@@ -15,7 +15,7 @@ var catToy = .50;
 const totalAmt = wetFood + dryFood + catLitter + catTreats + catToy;
 // create prompt for number of cats
 var noCats = prompt("Please enter the number of cats you have.");
-// create variable for number of cats
+// create variable for total cost based on amount of cats
 var totCats = totalAmt * noCats;
 //create prompt to gather number of weeks
 var noWks = prompt("Please enter the amount of weeks");
