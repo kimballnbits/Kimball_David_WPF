@@ -7,6 +7,7 @@ var wetFood = 3.25;
 var dryFood = 2.50;
 //create variable for cost of item
 var catLitter = 5.25;
+//create variable for cost of item
 var catTreats = .75;
 //enter constant for total amount each week
 const totalAmt = wetFood + dryFood + catLitter + catTreats;
