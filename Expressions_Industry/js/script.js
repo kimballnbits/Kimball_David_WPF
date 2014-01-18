@@ -4,5 +4,5 @@
 //create array to show calculate number of orders
 var amtOrd = [7, 12, 5, 23, 11];
 //create variable to calculate total amount
-var totOrd = [0] + [1] + [2] + [3] + [4];
+var totOrd = amtOrd[0] + amtOrd[1] + amtOrd[2] + amtOrd[3] + amtOrd[4];
 console.log(totOrd);
