@@ -22,6 +22,10 @@ var reqAvgOrd = avgOrd * reqDay;
 var reqWks = prompt("Please enter the number of weeks to be calculated.");
 //create variable to calculate avg per weeks
 var reqAvgWk = reqWks * avgWk;
+//create prompt to request months
+var reqMth = prompt("Please enter the number of months to be calculated");
+//create variable to calculate avg per months
+var reqAvgMth = reqMth * avgMth;
 //create alert to display gathered data
-alert("The average amount of orders done per day is " + avgOrd + ". You asked how many on average are processed in " + reqDay + " days. This is an average of " + reqAvgOrd + " in total. The average per weeks would be " + reqAvgWk + ". ");
+alert("The average amount of orders done per day is " + avgOrd + ". You asked how many on average are processed in " + reqDay + " days. This is an average of " + reqAvgOrd + " in total. The average per weeks would be " + reqAvgWk + " orders. The average in months is " + reqAvgMth + "orders.");
 
