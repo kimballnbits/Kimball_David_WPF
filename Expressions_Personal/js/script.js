@@ -12,10 +12,7 @@ const totalAmt = wetFood + dryFood + catLitter + catTreats;
 var noWks = prompt("Please enter the amount of weeks");
 //create variable that calculates number of weeks by total amount
 var calcWks = totalAmt * noWks;
-//add variable for sales tax
-var slsTax = calcWks / 10;
-//create variable to show amount with sales tax
 //create alert that shows final calculation
 alert("I spend $" + totalAmt + " each week for my cats. That is equal to $" + calcWks + " for "+ noWks + " weeks.");
-console.log(slsTax);
+console.log(witTax);
 
