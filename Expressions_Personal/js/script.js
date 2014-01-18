@@ -12,7 +12,7 @@ var catTreats = .75;
 // create variable for cost of item
 var catToy = 1.00;
 //enter constant for total amount each week
-const totalAmt = wetFood + dryFood + catLitter + catTreats;
+const totalAmt = wetFood + dryFood + catLitter + catTreats + catToy;
 // create prompt for number of cats
 var noCats = prompt("Please enter the number of cats you have.");
 // create variable for number of cats
