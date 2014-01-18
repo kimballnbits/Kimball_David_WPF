@@ -9,4 +9,6 @@ var totOrd = amtOrd[0] + amtOrd[1] + amtOrd[2] + amtOrd[3] + amtOrd[4];
 const avgOrd = totOrd / 5;
 //create prompt for number of weeks
 var noWks = prompt("Please enter the number of weeks");
-console.log(totOrd);
+//create variable for avg order per week and # weeks
+var avgWks = avgOrd * noWks;
+alert(avgWks);
