@@ -22,7 +22,7 @@ var noWks = prompt("Please enter the amount of weeks");
 //create variable that calculates number of weeks by total amount by number of cats
 var calcWks = (totalAmt * noCats) * noWks;
 //create alert that shows final calculation
-alert("I spend $" + totalAmt + " each week per cat. That is $" + totCats + " for each cat. That is equal to $" + calcWks + " for "+ noWks + " weeks for " + noCats + " cats.");
+alert("I spend $" + totalAmt + " each week per cat. That is $" + totCats + " for " + noCats + "That is equal to $" + calcWks + " for "+ noWks + " weeks for " + noCats + " cats.");
 
 
 
