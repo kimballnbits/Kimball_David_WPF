@@ -1,10 +1,17 @@
 //David Kimball 1-18-14 Expressions Personal
 
-//amount I spend on the cats per year
+//amount I spend on the cats
 //enter amount spent on each item for cats
-var wetFood = 5.98
-var dryFood = 4.98
-var catLitter = 6.49
-var catTreats = 2.99
-//enter constant for number of weeks in a year
-const wksYear = 52
+var wetFood = 6.00;
+var dryFood = 4.50;
+var catLitter = 7.00;
+var catTreats = 1.75;
+//enter constant for total amount each week
+const totalAmt = wetFood + dryFood + catLitter + catTreats;
+//create prompt to gather number of weeks
+var noWks = prompt("Please enter the amount of weeks");
+var calcWks = totalAmt * noWks;
+//create alert that shows final calculation
+alert("I spend $" + totalAmt + " each week for my cats. That is equal to $" + calcWks + " for "+ noWks + " weeks.");
+
+
