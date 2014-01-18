@@ -3,6 +3,7 @@
 //amount I spend on the cats
 //enter amount spent on each item per cat
 var wetFood = 3.25;
+//create variable for cost of item
 var dryFood = 2.50;
 var catLitter = 5.25;
 var catTreats = .75;
