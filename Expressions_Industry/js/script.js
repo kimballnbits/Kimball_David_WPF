@@ -10,8 +10,12 @@ var avgOrd = totOrd / 5;
 //create variable for avg orders per week
 var avgWk = avgOrd * 7;
 //create var for avg orders per month
-var calMth = 365/12;
+var calMth = 365 / 12;
 var avgMth = avgOrd * calMth;
 //create variable for avg amount of orders per year
-var avgYr = avgOrd * ;
-//create prompt for weeks
+var avgYr = avgOrd * 365;
+//create prompt for days
+var reqDay = prompt("Please enter the number of days to be calculated.");
+//create variable to calculate days
+var reqAvgOrd = totOrd * reqDay;
+
