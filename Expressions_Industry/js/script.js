@@ -17,5 +17,6 @@ var avgYr = avgOrd * 365;
 //create prompt for days
 var reqDay = prompt("Please enter the number of days to be calculated.");
 //create variable to calculate days
-var reqAvgOrd = totOrd * reqDay;
+var reqAvgOrd = avgOrd * reqDay;
+alert("The average amount of orders done per day is " + avgOrd + ". You asked how many on average are processed in " + reqDay + " days. This is an average of " + reqAvgOrd + " in total. ")
 
