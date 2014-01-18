@@ -10,6 +10,7 @@ var catTreats = 1.75;
 const totalAmt = wetFood + dryFood + catLitter + catTreats;
 //create prompt to gather number of weeks
 var noWks = prompt("Please enter the amount of weeks");
+//create variable that calculates number of weeks by total amount
 var calcWks = totalAmt * noWks;
 //create alert that shows final calculation
 alert("I spend $" + totalAmt + " each week for my cats. That is equal to $" + calcWks + " for "+ noWks + " weeks.");
