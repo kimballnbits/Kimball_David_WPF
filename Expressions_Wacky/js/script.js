@@ -16,7 +16,9 @@ const descXbox1N = "Xbox One:        " + xbox1N;
 const descXbox3N = "Xbox 360:        " + xbox360N;
 const descWiiN = "WiiU:              " + wiiUN;
 //create prompts to request which systems
-
+var reqSys = prompt("Please enter the system you own!");
+//create prompt for new or used
+var reqUn = prompt ("Please enter if you would prefer new or used!")
 console.log (usePs3);
 
 
