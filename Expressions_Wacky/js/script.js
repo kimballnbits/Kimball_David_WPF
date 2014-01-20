@@ -9,6 +9,7 @@ var xbox1N = (60);
 var wiiUN = (60);
 //create array to show avg cost of used games
 var usePs3 = (50 + 45 + 35 + 20 + 10) / 5;
+var usePs4 = (60 + 50 + 55) / 3;
 //create const to show desc for prompt
 const descPs3N = "Playstation 3:     " + ps3N;
 const descPs4N = "Playstation 4:     " + ps4N;
@@ -17,8 +18,8 @@ const descXbox3N = "Xbox 360:        " + xbox360N;
 const descWiiN = "WiiU:              " + wiiUN;
 //create prompts to request which systems
 var reqSys = prompt("Please enter the system you own!");
-//create prompt for new or used
-var reqUn = prompt ("Please enter if you would prefer new or used!")
+
+
 console.log (usePs3);
 
 
