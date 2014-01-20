@@ -10,6 +10,10 @@ var wiiUN = (60);
 //create array to show avg cost of used games
 var usePs3 = (50 + 45 + 35 + 20 + 10) / 5;
 var usePs4 = (60 + 50 + 55) / 3;
+var useXbox360 = (55 + 45 + 40 + 30 + 20) / 5;
+var useXbox1 = (60 + 55 + 50 + 45) / 4;
+var useWii = (50 + 45 + 40 + 30 + 20) / 5;
+
 //create const to show desc for prompt
 const descPs3N = "Playstation 3:     " + ps3N;
 const descPs4N = "Playstation 4:     " + ps4N;
