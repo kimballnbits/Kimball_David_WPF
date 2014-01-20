@@ -27,5 +27,5 @@ var reqMth = prompt("Please enter the number of months to be calculated");
 //create variable to calculate avg per months
 var reqAvgMth = reqMth * avgMth;
 //create alert to display gathered data
-alert("The average amount of orders done per day is " + avgOrd + ". You asked how many on average are processed in " + reqDay + " days, " + reqWks +" weeks and " + reqMth + " months. This is an average of " + reqAvgOrd + " in total per days. The average amount of orders per weeks would be " + reqAvgWk + " orders. The average amount of orders in months is " + reqAvgMth + " orders.");
+alert("The average amount of orders done per day is " + avgOrd + ". You asked how many on average are processed in " + reqDay + " days, " + reqWks +" weeks and " + reqMth + " months. This is an average of " + reqAvgOrd + " in total per days. The average amount of orders per weeks would be " + reqAvgWk + " orders. The average amount of orders per months would be " + reqAvgMth + " orders.");
 
