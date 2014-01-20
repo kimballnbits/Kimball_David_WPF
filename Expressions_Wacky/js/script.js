@@ -1,20 +1,23 @@
 // David Kimball 1-20-14 Expressions Wacky
 
 //calculate the average amount of money spent on video games
-//create array showing cost of various new video games and which systems
-var newGam = [60, 60, 60, 60, 50];
-var ps3 = [0];
-var xbox360 = [1];
-var ps4 = [2];
-var xbox1 = [3];
-var wiiU = [4];
+//create var showing system game cost
+var ps3N = (60);
+var xbox360N = (60);
+var ps4N = (60);
+var xbox1N = (60);
+var wiiUN = (60);
+//create array to show avg cost of used games
+var usePs3 = (50 + 45 + 35 + 20 + 10) / 5;
 //create const to show desc for prompt
-const descPs3 = "Playstation 3:     " + ps3;
-const descPs4 = "Playstation 4:     " + ps4;
-const descXbox1 = "Xbox One:        " + xbox1;
-const descXbox3 = "Xbox 360:        " + xbox360;
-const descWii = "WiiU:           " + wiiU;
+const descPs3N = "Playstation 3:     " + ps3N;
+const descPs4N = "Playstation 4:     " + ps4N;
+const descXbox1N = "Xbox One:        " + xbox1N;
+const descXbox3N = "Xbox 360:        " + xbox360N;
+const descWiiN = "WiiU:              " + wiiUN;
+//create prompts to request which systems
 
+console.log (usePs3);
 
 
 
