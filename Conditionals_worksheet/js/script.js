@@ -35,7 +35,13 @@ if(useName === corUse && usePass === corPass){
 }
 
 //Tire pressure I
-//
+//show amount of air in tires
+var tirePsi = [32, 32, 30, 30];
+var accPsi = 34;
+var specs;
+//conditional for amount of psi
+(tirePsi < accPsi) ? console.log("The tires pass spec!") : console.log("Get your tires checked out!");
+
 
 
 
