@@ -7,6 +7,12 @@ const todDt = "1-26-14";
 var milkAmt = prompt("How much milk is left? \nPlease enter a percentage. Ex. 25 ");
 //create var to show amount of milk left
 var milkBuy = 100 - milkAmt ;
+//create conditional for no info
+if(milkAmt = ""){
+    prompt("You forgot to enter an amount!");
+}else{
+    alert("Thank you for your participation!")
+}
 //create prompt for expiration date
 var expDt = prompt("when does the milk expire? \nEx. 1-28-14");
 //create if else
