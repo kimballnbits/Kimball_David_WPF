@@ -23,9 +23,9 @@ if(expDt === ""){
     //
 }
 //create conditional for buying milk or not
-if(todDt > expDt && todDt > expDt2){
+if((todDt > expDt) && (todDt > expDt2)){
     alert("You need to buy milk! Throw that stuff away!");
-} else if(milkBuy > 70 || milkBuy2 > 70){
+} else if((milkBuy > 70) && (milkBuy2 > 70)){
     alert("You should buy milk! You are getting low!");
 }else{
     alert("You do not need to buy milk right now!");
