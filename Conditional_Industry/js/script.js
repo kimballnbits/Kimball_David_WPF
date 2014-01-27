@@ -20,13 +20,16 @@ if(bnkLoan === ""){
     bnkLoan2 = prompt("You need to enter an amount.");
 }else{
     //
-
 }
 // create var for figures
-var bnkTrd = (bnkLoan + forkTrd) || (bnkLoan2 + forkTrd2);
-var bnkTrd2 = (bnkLoan + forkTrd2) || (bnkLoan2 + forkTrd);
+var bnkTrd = bnkLoan + forkTrd;
+var bnkTrd1 = bnkLoan2 + forkTrd;
+var bnkTrd2 = bnkLoan + forkTrd2;
+var bnkTrd3 = bnkLoan2 + forkTrd;
 //create cond to see if we can afford forklift
-if((forkCost < bnkTrd + forkBud) || (forkCost < bnkTrd2 + forkBud)){
+if((forkCost < bnkTrd + forkBud) && (forkCost < bnkTrd1 + forkBud)){
+    alert("We can buy a forklift!");
+}else if((forkCost < bnkTrd2 + forkBud) && (forkCost < bnkTrd3 + forkBud)){
     alert("We can buy a forklift!");
 }else{
     alert("We need to wait to buy a forklift!");
