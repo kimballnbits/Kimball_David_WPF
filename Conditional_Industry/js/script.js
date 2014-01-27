@@ -25,7 +25,7 @@ if(bnkLoan === ""){
 var bnkTrd = bnkLoan + forkTrd;
 var bnkTrd1 = bnkLoan2 + forkTrd;
 var bnkTrd2 = bnkLoan + forkTrd2;
-var bnkTrd3 = bnkLoan2 + forkTrd;
+var bnkTrd3 = bnkLoan2 + forkTrd2;
 //create cond to see if we can afford forklift
 if((forkCost < bnkTrd + forkBud) && (forkCost < bnkTrd1 + forkBud)){
     alert("We can buy a forklift!");
