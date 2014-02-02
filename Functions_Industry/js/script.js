@@ -16,7 +16,6 @@ function ttlCst(){
     var ttlAmt = rntCst + avgGas + avgElc;
     console.log("We pay an average of $" + ttlAmt + " per month to maintain the warehouse.");
     return ttlAmt;
-
 }
 //call function
 ttlCst();
@@ -24,12 +23,13 @@ ttlCst();
 var heatCst = prompt("How much is it to purchase and install new heaters?");
 //create prompt for budget for heaters
 var heatBdg = prompt("What is our budget for new heaters?");
-// create function to calculate budget and cost
-function heatTtl(){
-    var bdgCst = heatBdg - heatCst;
-    return bdgCst;
+//create var to show cost of heat plus avg month
+var ovrCst = heatCst + ttlCst;
+//create if else else/if for vars
+if(heatBdg < ovrCst){
+    console.log("We need to wait to purchase new heaters.");
+}else if(heatCst > heatBdg){
+    console.log("We will seek more quotes before we make a decision!");
+}else{
+    console.log("We can buy new heaters!");
 }
-//call function
-heatTtl();
-//create if/else else/if for vars
-if()
