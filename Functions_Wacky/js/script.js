@@ -7,7 +7,7 @@ var gameCst = 60;
 function ttlCst(){
     var slsTax = gameCst / 8;
     var ttlCst = gameCst + slsTax;
-    console.log("The total cost for a video game is $" + ttlCst + ".");
+    console.log("The total cost for a video game is $" + ttlCst + ". We have a budget of $70.");
     return ttlCst;
 }
 //call function
