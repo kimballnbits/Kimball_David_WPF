@@ -24,7 +24,7 @@ var heatCst = prompt("How much is it to purchase and install new heaters?");
 //create prompt for budget for heaters
 var heatBdg = prompt("What is our budget for new heaters?");
 //create var for overall cost
-var ovrCst = ttlCst + heatCst;
+var ovrCst = (ttlCst + heatCst);
 //create if else else/if for vars
 if(heatBdg < heatCst) {
     console.log("We need more quotes before we make a decision!");
