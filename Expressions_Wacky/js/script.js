@@ -13,18 +13,11 @@ var usePs4 = (60 + 50 + 55) / 3;
 var useXbox360 = (55 + 45 + 40 + 30 + 20) / 5;
 var useXbox1 = (60 + 55 + 50 + 45) / 4;
 var useWii = (50 + 45 + 40 + 30 + 20) / 5;
-
-//create const to show desc for prompt
-const descPs3N = "Playstation 3:     " + ps3N;
-const descPs4N = "Playstation 4:     " + ps4N;
-const descXbox1N = "Xbox One:        " + xbox1N;
-const descXbox3N = "Xbox 360:        " + xbox360N;
-const descWiiN = "WiiU:              " + wiiUN;
 //create prompts to request which systems
-var reqSys = prompt("Please enter the system you own!");
 
 
-console.log (usePs3);
+
+console.log (reqSys);
 
 
 

@@ -23,13 +23,13 @@ ttlCst();
 var heatCst = prompt("How much is it to purchase and install new heaters?");
 //create prompt for budget for heaters
 var heatBdg = prompt("What is our budget for new heaters?");
-//create var to show cost of heat plus avg month
-var ovrCst = heatCst + ttlCst;
+//create var for overall cost
+var ovrCst = ttlCst + heatCst;
 //create if else else/if for vars
-if(heatBdg < ovrCst){
+if(heatBdg < heatCst) {
+    console.log("We need more quotes before we make a decision!");
+}else if(heatBdg < ovrCst) {
     console.log("We need to wait to purchase new heaters.");
-}else if(heatCst > heatBdg){
-    console.log("We will seek more quotes before we make a decision!");
 }else{
-    console.log("We can buy new heaters!");
+    console.log("We can get purchase new heaters!");
 }
