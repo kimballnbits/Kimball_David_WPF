@@ -10,7 +10,7 @@ function forYr(){
     var ttlYr = amtAvl * 12;
     console.log("You can afford to spend $" + ttlYr + " per year for insurance.");
 }
-// call function
+//call function
 forYr();
 //create if/else for function calc and availability
 if(amtIns < amtAvl){
