@@ -2,17 +2,21 @@
 
 //Calculate the ability to afford medical insurance
 //create prompt for amt of money avl for ins
-var amtAvl = prompt("What is the maximum amount of money you can afford for insurance?");
+var amtAvl = prompt("What is the maximum amount of money you can afford for insurance per month?");
 //create prompt for amt of ins
-var amtIns = prompt("What is the cost for insurance?");
+var amtIns = prompt("What is the cost for insurance per year?");
 //create function to process information
-function affIns(){
-    var amtAft = amtIns - amtAvl;
-    return amtAft;
+function avlYr(){
+    var amtYr = amtAvl * 12;
+    return amtYr;
 }
+// call function
+avlYr();
+//create var for calculating cost
+var ttlAmt = avlYr - amtIns;
 //create if/else for function calc and availability
-if(affIns > 0){
+if(ttlAmt > 0){
     console.log("You can afford insurance!");
 }else{
-    console.log("You must look seek government assistance for insurance.");
+    console.log("You must seek government assistance for insurance.");
 }
