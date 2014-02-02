@@ -15,7 +15,21 @@ var avgElc = (elcCst[0] + elcCst[1] + elcCst[2] + elcCst[3]) / 4;
 function ttlCst(){
     var ttlAmt = rntCst + avgGas + avgElc;
     console.log("We pay an average of $" + ttlAmt + " per month to maintain the warehouse.");
+    return ttlAmt;
 
 }
 //call function
 ttlCst();
+//create prompt for cost of new heaters
+var heatCst = prompt("How much is it to purchase and install new heaters?");
+//create prompt for budget for heaters
+var heatBdg = prompt("What is our budget for new heaters?");
+// create function to calculate budget and cost
+function heatTtl(){
+    var bdgCst = heatBdg - heatCst;
+    return bdgCst;
+}
+//call function
+heatTtl();
+//create if/else else/if for vars
+if()
