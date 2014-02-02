@@ -5,7 +5,7 @@
 var amtAvl = prompt("What is the maximum amount of money you can afford for insurance per month?");
 //create prompt for amt of ins
 var amtIns = prompt("What is the cost for insurance per year?");
-//create function to process information
+//create function to process change from mth to yr
 function forYr(){
     var ttlYr = amtAvl * 12;
     console.log("You can afford to spend $" + ttlYr + " per year for insurance.");
