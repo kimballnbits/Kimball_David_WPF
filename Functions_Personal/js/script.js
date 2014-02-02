@@ -6,16 +6,14 @@ var amtAvl = prompt("What is the maximum amount of money you can afford for insu
 //create prompt for amt of ins
 var amtIns = prompt("What is the cost for insurance per year?");
 //create function to process information
-function avlYr(){
-    var amtYr = amtAvl * 12;
-    return amtYr;
+function forYr(){
+    var ttlYr = amtAvl * 12;
+    console.log("You can afford to spend $" + ttlYr + " per year for insurance.");
 }
 // call function
-avlYr();
-//create var for calculating cost
-var ttlAmt = avlYr - amtIns;
+forYr();
 //create if/else for function calc and availability
-if(ttlAmt > 0){
+if(amtIns < amtAvl){
     console.log("You can afford insurance!");
 }else{
     console.log("You must seek government assistance for insurance.");
